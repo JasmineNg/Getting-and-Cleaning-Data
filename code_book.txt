@@ -1,0 +1,212 @@
+DATA DICTIONARY for course_proj.txt
+
+activity Factor
+  activity description
+   WALKING
+   WALKING_UPSTAIRS
+   WALKING_DOWNSTAIRS
+   SITTING
+   STANDING
+   LAYING
+
+subject int
+  subject person no. 
+  1..30
+  
+tBodyAcc-mean()-X num
+  -1..1 .average of mean() by activity and subject
+  
+tBodyAcc-mean()-Y num
+  -1..1 .average of mean() by activity and subject
+
+tBodyAcc-mean()-Z num
+  -1..1 .average of mean() by activity and subject
+  
+tGravityAcc-mean()-X num
+  -1..1 .average of mean() by activity and subject
+  
+tGravityAcc-mean()-Y num
+  -1..1 .average of mean() by activity and subject
+
+tGravityAcc-mean()-Z num
+  -1..1 .average of mean() by activity and subject
+  
+tBodyAccJerk-mean()-X num
+  -1..1 .average of mean() by activity and subject
+  
+tBodyAccJerk-mean()-Y num
+  -1..1 .average of mean() by activity and subject
+  
+tBodyAccJerk-mean()-Z num
+  -1..1 .average of mean() by activity and subject
+  
+tBodyGyro-mean()-X num
+  -1..1 .average of mean() by activity and subject
+  
+tBodyGyro-mean()-Y num
+  -1..1 .average of mean() by activity and subject
+  
+tBodyGyro-mean()-Z num
+  -1..1 .average of mean() by activity and subject
+  
+tBodyGyroJerk-mean()-X num
+  -1..1 .average of mean() by activity and subject
+  
+tBodyGyroJerk-mean()-Y num
+  -1..1 .average of mean() by activity and subject
+  
+tBodyGyroJerk-mean()-Z num
+  -1..1 .average of mean() by activity and subject
+  
+tBodyAccMag-mean() num
+  -1..1 .average of mean() by activity and subject
+  
+tGravityAccMag-mean() num
+  -1..1 .average of mean() by activity and subject
+  
+tBodyAccJerkMag-mean() num
+  -1..1 .average of mean() by activity and subject
+  
+tBodyGyroMag-mean() num
+  -1..1 .average of mean() by activity and subject
+
+tBodyGyroJerkMag-mean() num
+  -1..1 .average of mean() by activity and subject
+  
+fBodyAcc-mean()-X num
+  -1..1 .average of mean() by activity and subject
+  
+fBodyAcc-mean()-Y num
+  -1..1 .average of mean() by activity and subject
+  
+fBodyAcc-mean()-Z num
+  -1..1 .average of mean() by activity and subject
+  
+fBodyAccJerk-mean()-X num
+  -1..1 .average of mean() by activity and subject
+  
+fBodyAccJerk-mean()-Y num
+  -1..1 .average of mean() by activity and subject
+  
+fBodyAccJerk-mean()-Z num
+  -1..1 .average of mean() by activity and subject
+  
+fBodyGyro-mean()-X num
+  -1..1 .average of mean() by activity and subject
+  
+fBodyGyro-mean()-Y num
+  -1..1 .average of mean() by activity and subject
+  
+fBodyGyro-mean()-Z num
+  -1..1 .average of mean() by activity and subject
+  
+fBodyAccMag-mean() num
+  -1..1 .average of mean() by activity and subject
+  
+fBodyBodyAccJerkMag-mean() num
+  -1..1 .average of mean() by activity and subject
+
+fBodyBodyGyroMag-mean() num
+  -1..1 .average of mean() by activity and subject
+  
+fBodyBodyGyroJerkMag-mean() num
+  -1..1 .average of mean() by activity and subject
+  
+tBodyAcc-std()-X num
+  -1..1 .average of std() by activity and subject
+  
+tBodyAcc-std()-Y num
+  -1..1 .average of std() by activity and subject
+  
+tBodyAcc-std()-Z num
+  -1..1 .average of std() by activity and subject
+  
+tGravityAcc-std()-X num
+  -1..1 .average of std() by activity and subject
+
+tGravityAcc-std()-Y num
+  -1..1 .average of std() by activity and subject
+
+tGravityAcc-std()-Z num
+  -1..1 .average of std() by activity and subject
+  
+tBodyAccJerk-std()-X num
+  -1..1 .average of std() by activity and subject
+
+tBodyAccJerk-std()-Y num
+  -1..1 .average of std() by activity and subject
+  
+tBodyAccJerk-std()-Z num
+  -1..1 .average of std() by activity and subject
+
+tBodyGyro-std()-X num
+  -1..1 .average of std() by activity and subject
+  
+tBodyGyro-std()-Y num
+  -1..1 .average of std() by activity and subject
+  
+tBodyGyro-std()-Z num
+  -1..1 .average of std() by activity and subject
+  
+tBodyGyroJerk-std()-X num
+  -1..1 .average of std() by activity and subject
+  
+tBodyGyroJerk-std()-Y num
+  -1..1 .average of std() by activity and subject
+
+tBodyGyroJerk-std()-Z num
+  -1..1 .average of std() by activity and subject
+  
+tBodyAccMag-std() num
+  -1..1 .average of std() by activity and subject
+
+tGravityAccMag-std() num
+  -1..1 .average of std() by activity and subject
+  
+tBodyAccJerkMag-std() num
+  -1..1 .average of std() by activity and subject
+
+tBodyGyroMag-std() num
+  -1..1 .average of std() by activity and subject
+  
+tBodyGyroJerkMag-std() num
+  -1..1 .average of std() by activity and subject
+
+fBodyAcc-std()-X num
+  -1..1 .average of std() by activity and subject
+  
+fBodyAcc-std()-Y num
+  -1..1 .average of std() by activity and subject
+
+fBodyAcc-std()-Z num
+  -1..1 .average of std() by activity and subject
+  
+fBodyAccJerk-std()-X num
+  -1..1 .average of std() by activity and subject
+
+fBodyAccJerk-std()-Y num
+  -1..1 .average of std() by activity and subject
+  
+fBodyAccJerk-std()-Z num
+  -1..1 .average of std() by activity and subject
+  
+fBodyGyro-std()-X num
+  -1..1 .average of std() by activity and subject
+
+fBodyGyro-std()-Y num
+  -1..1 .average of std() by activity and subject
+
+fBodyGyro-std()-Z num
+  -1..1 .average of std() by activity and subject
+
+fBodyAccMag-std() num
+  -1..1 .average of std() by activity and subject
+
+fBodyBodyAccJerkMag-s numtd()
+  -1..1 .average of std() by activity and subject
+
+fBodyBodyGyroMag-std() num
+  -1..1 .average of std() by activity and subject
+  
+fBodyBodyGyroJerkMag-std() num
+  -1..1 .average of std() by activity and subject
